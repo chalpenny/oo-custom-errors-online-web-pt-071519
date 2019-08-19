@@ -10,6 +10,8 @@ class Person
     person.partner = self
   end
 
+  class PartnerError < Standard error
+  end
 end
 
 beyonce = Person.new("Beyonce")
